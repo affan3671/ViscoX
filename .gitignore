@@ -1,0 +1,13 @@
+# Don't commit large files
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+__pycache__/
+.ipynb_checkpoints/
+
+# But DO commit these
+!training_state.json
+!config.ipynb
+!README.md
